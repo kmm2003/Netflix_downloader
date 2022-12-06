@@ -34,7 +34,10 @@ python recover_l3keybox_mobile.py
 ```
 5. Starting python script
 6. Play video
-![netflix_download](https://user-images.githubusercontent.com/69188747/205892336-b64058fc-c4a7-475c-8277-d0c064ea773a.png)<br><br><br>
+
+
+
+![netflix_download](https://user-images.githubusercontent.com/69188747/205892336-b64058fc-c4a7-475c-8277-d0c064ea773a.png)<br>
 7. The video is downloaded automatically
 
 
