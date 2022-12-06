@@ -10,10 +10,11 @@
 
 ## usage
 ### media download & L3 KeyBox Recovery
+1. Install frida-server in Android device ("/data/local/tmp" in path with root)
 ```
 adb push frida-server /data/local/tmp/frida-server
 ```
-1. Install frida-server in Android device ("/data/local/tmp" in path with root)
+2. Set permissions for frida-server
 ```
 adb shell
 
@@ -21,18 +22,17 @@ chmod 777 frida-server
 
 chown root:root frida-server
 ```
-2. Set permissions for frida-server
+3. Starting frida-server
 ```
 ./frida-server &
 ```
-3. Starting frida-server
 4. Turn on the Netflix app and wait
+5. Starting python script
 ```
 python netflix_media_download.py
 
 python recover_l3keybox_mobile.py
 ```
-5. Starting python script
 6. Play video
 
 
