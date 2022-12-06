@@ -10,7 +10,7 @@
 
 ## usage
 ### media download & L3 KeyBox Recovery
-Install frida-server in Android device ("/data/local/tmp" in path with root)
+1) Install frida-server in Android device ("/data/local/tmp" in path with root)
 ```
   adb push frida-server /data/local/tmp/frida-server
 ```
