@@ -42,6 +42,7 @@ Starting python script
 Play video
 
 The video is downloaded automatically
+
 e.g:
 <br><br>![netflix_download](https://user-images.githubusercontent.com/69188747/205892336-b64058fc-c4a7-475c-8277-d0c064ea773a.png)
 
