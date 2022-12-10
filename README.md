@@ -13,30 +13,30 @@
 
 Install frida-server in Android device ("/data/local/tmp" in path with root)
 ```
-  adb push frida-server /data/local/tmp/frida-server
+adb push frida-server /data/local/tmp/frida-server
 ```
 
 Set permissions for frida-server
 ```
-  adb shell
+adb shell
 
-  chmod 777 frida-server
+chmod 777 frida-server
 
-  chown root:root frida-server
+chown root:root frida-server
 ```
 
 Starting frida-server
 ```
-  ./frida-server &
+./frida-server &
 ```
 
 Turn on the Netflix app and wait
 
 Starting python script
 ```
-  python netflix_media_download.py
+python netflix_media_download.py
 
-  python recover_l3keybox_mobile.py
+python recover_l3keybox_mobile.py
 ```
 
 Play video
