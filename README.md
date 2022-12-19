@@ -3,7 +3,7 @@
 ## requirement
 + Frida 15.2.2 (Android 9~13)
 + Frida 12.11.11 (Android 5,6)
-+ python 3.9
++ python 3.9+
 + pycurl
 + json, cbor2
 + humanize
